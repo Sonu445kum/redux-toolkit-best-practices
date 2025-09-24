@@ -1,5 +1,6 @@
 import Counter from "./components/Counter"
 import UserLists from "./components/UserLists"
+import PostsList from "./Normalizations/PostsList"
 
 
 
@@ -13,7 +14,10 @@ function App() {
       {/* <UserLists/> */}
       {/* <Counter/> */}
       {/*  */}
-      <UserLists/>
+      {/* <UserLists/> */}
+
+      {/* Normailizations */}
+      <PostsList/>
     </>
   )
 }

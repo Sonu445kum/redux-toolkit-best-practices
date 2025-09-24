@@ -7,15 +7,28 @@
 //   },
 // })
 
+// import { configureStore } from "@reduxjs/toolkit";
+// import { usersApi } from "../features/usersApi";
+
+// const store = configureStore({
+//   reducer: {
+//     [usersApi.reducerPath]: usersApi.reducer,
+//   },
+//   middleware: (getDefaultMiddleware) =>
+//     getDefaultMiddleware().concat(usersApi.middleware),
+// });
+
+// export default store;
+
+// Normailizations
+// store.js
 import { configureStore } from "@reduxjs/toolkit";
-import { usersApi } from "../features/usersApi";
+import postsReducer from "../Normalizations/postsSlice";
 
-const store = configureStore({
+ const store = configureStore({
   reducer: {
-    [usersApi.reducerPath]: usersApi.reducer,
+    socialApp: postsReducer,
   },
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(usersApi.middleware),
 });
-
+// export the store by the defualt
 export default store;

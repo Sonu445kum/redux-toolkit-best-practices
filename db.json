@@ -1,0 +1,166 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Learning Redux Toolkit",
+      "author": { "id": 101, "name": "Sonu" },
+      "comments": [
+        { "id": 1001, "text": "Awesome post!", "user": { "id": 201, "name": "Monu" } },
+        { "id": 1002, "text": "Redux Rocks", "user": { "id": 202, "name": "Tonu" } }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "RTK Query is Great",
+      "author": { "id": 102, "name": "Anu" },
+      "comments": [
+        { "id": 1003, "text": "Yes! Agree 👍", "user": { "id": 203, "name": "Ravi" } }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Normalization in Redux makes life easier",
+      "author": { "id": 103, "name": "Rohit" },
+      "comments": [
+        { "id": 1004, "text": "Very helpful!", "user": { "id": 204, "name": "Neha" } },
+        { "id": 1005, "text": "Thanks for sharing!", "user": { "id": 205, "name": "Karan" } }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "React with Redux is powerful",
+      "author": { "id": 104, "name": "Priya" },
+      "comments": [
+        { "id": 1006, "text": "Totally agree!", "user": { "id": 206, "name": "Arjun" } }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "RTK Query simplifies API calls",
+      "author": { "id": 105, "name": "Deepak" },
+      "comments": [
+        { "id": 1007, "text": "Wow, so easy!", "user": { "id": 207, "name": "Meera" } }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Redux Middleware explained",
+      "author": { "id": 106, "name": "Sita" },
+      "comments": [
+        { "id": 1008, "text": "Good breakdown!", "user": { "id": 208, "name": "Hari" } }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Understanding useSelector deeply",
+      "author": { "id": 107, "name": "Raj" },
+      "comments": [
+        { "id": 1009, "text": "Helped a lot 🙏", "user": { "id": 209, "name": "Pooja" } }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "When to use useDispatch?",
+      "author": { "id": 108, "name": "Nisha" },
+      "comments": [
+        { "id": 1010, "text": "Exactly what I needed!", "user": { "id": 210, "name": "Krish" } }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Redux vs Context API",
+      "author": { "id": 109, "name": "Ankit" },
+      "comments": [
+        { "id": 1011, "text": "Great comparison!", "user": { "id": 211, "name": "Jaya" } }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Store design patterns",
+      "author": { "id": 110, "name": "Geeta" },
+      "comments": [
+        { "id": 1012, "text": "Clear explanation!", "user": { "id": 212, "name": "Kabir" } }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Redux Toolkit slices in depth",
+      "author": { "id": 111, "name": "Amit" },
+      "comments": [
+        { "id": 1013, "text": "Very insightful!", "user": { "id": 213, "name": "Seema" } }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Immer.js and immutability",
+      "author": { "id": 112, "name": "Lata" },
+      "comments": [
+        { "id": 1014, "text": "Learnt something new!", "user": { "id": 214, "name": "Rahul" } }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Redux DevTools debugging",
+      "author": { "id": 113, "name": "Vinay" },
+      "comments": [
+        { "id": 1015, "text": "Awesome tips!", "user": { "id": 215, "name": "Anjali" } }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "RTK Query caching explained",
+      "author": { "id": 114, "name": "Manish" },
+      "comments": [
+        { "id": 1016, "text": "Super useful!", "user": { "id": 216, "name": "Renu" } }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Selectors and memoization",
+      "author": { "id": 115, "name": "Komal" },
+      "comments": [
+        { "id": 1017, "text": "Saved me time!", "user": { "id": 217, "name": "Aakash" } }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Thunk middleware in Redux",
+      "author": { "id": 116, "name": "Tarun" },
+      "comments": [
+        { "id": 1018, "text": "Nicely written!", "user": { "id": 218, "name": "Simran" } }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Redux for large apps",
+      "author": { "id": 117, "name": "Shalini" },
+      "comments": [
+        { "id": 1019, "text": "This helped me a lot!", "user": { "id": 219, "name": "Dev" } }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Redux vs MobX",
+      "author": { "id": 118, "name": "Mohit" },
+      "comments": [
+        { "id": 1020, "text": "Interesting comparison!", "user": { "id": 220, "name": "Sara" } }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "State normalization best practices",
+      "author": { "id": 119, "name": "Isha" },
+      "comments": [
+        { "id": 1021, "text": "Now it's clear!", "user": { "id": 221, "name": "Aditya" } }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Redux Toolkit in production",
+      "author": { "id": 120, "name": "Ramesh" },
+      "comments": [
+        { "id": 1022, "text": "Great for real apps!", "user": { "id": 222, "name": "Swati" } }
+      ]
+    }
+  ]
+}
