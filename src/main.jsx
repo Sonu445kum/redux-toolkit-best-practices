@@ -15,7 +15,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import store from './features/store'
+import store from './store'
 import { Provider } from 'react-redux'
 
 // As of React 18
