@@ -1,3 +1,4 @@
+import ParentCompo from "../../../useStatePractice/src/Components/PropDrilling/ParentCompo"
 import About from "../../../useStatePractice/src/Components/React-Router/About"
 import Home from "../../../useStatePractice/src/Components/React-Router/Home"
 import Counter from "./components/Counter"
@@ -5,6 +6,7 @@ import NewUsersList from "./components/NewUsersList"
 import UserLists from "./components/UserLists"
 import PostsList from "./Normalizations/PostsList"
 import Header from "./Performance-Optimizations/React-Lazy-Suspense/Header"
+import ParentComponenets from "./Performance-Optimizations/React.memo/ParentComponents"
 import ExpensiveExample from "./Performance-Optimizations/UseCallback/CounterExample"
 import CounterExample from "./Performance-Optimizations/UseCallback/CounterExample"
 import ListExample from "./Performance-Optimizations/UseCallback/ListExamples"
@@ -54,21 +56,24 @@ function App() {
         {/* <LazyComponent /> */}
       {/* </Suspense> * */}
 
-       <div>
+       {/* <div>
       <h1>Conditional Lazy Loading</h1>
 
       {/* Buttons to switch page */}
-      <button onClick={() => setPage("home")}>Home</button>
-      <button onClick={() => setPage("about")}>About</button>
+      {/* <button onClick={() => setPage("home")}>Home</button>
+      <button onClick={() => setPage("about")}>About</button> */}
 
       {/* Suspense wrapper for lazy components */}
-      <Suspense fallback={<p>Loading page...</p>}>
+      {/* <Suspense fallback={<p>Loading page...</p>}>
         {page === "home" && <Home />}
         {page === "about" && <About />}
-      </Suspense>
-    </div>
+      </Suspense>  */}
+    {/* </div> */}
+
+    {/* React.memo */}
+    <ParentComponenets/>
     </>
   )
 }
 
-export default App
+export default App;
