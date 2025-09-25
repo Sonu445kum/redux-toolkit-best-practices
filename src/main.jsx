@@ -30,10 +30,10 @@
 
 // Performance Optimizations
 // Add the provider in the main.jsx file 
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-// import './index.css'
-import App from './App.jsx'
+// import { StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
+// // import './index.css'
+// import App from './App.jsx'
 
 // Redux imports
 //Provider:
@@ -42,11 +42,24 @@ import App from './App.jsx'
 // import { Provider } from 'react-redux'
 // import { store } from './store.js'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    {/* <Provider store={store}> */}
-      <App />
-    {/* </Provider> */}
-  </StrictMode>
-)
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     {/* <Provider store={store}> */}
+//       <App />
+//     {/* </Provider> */}
+//   </StrictMode>
+// )
+
+
+// React-Lazy And Suspense
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
 

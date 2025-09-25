@@ -1,3 +1,5 @@
+import About from "../../../useStatePractice/src/Components/React-Router/About"
+import Home from "../../../useStatePractice/src/Components/React-Router/Home"
 import Counter from "./components/Counter"
 import NewUsersList from "./components/NewUsersList"
 import UserLists from "./components/UserLists"
@@ -9,13 +11,14 @@ import ListExample from "./Performance-Optimizations/UseCallback/ListExamples"
 import ExpensiveCalculation from "./Performance-Optimizations/UseMemo/ExpensiveCalculations"
 import FilteredList from "./Performance-Optimizations/UseMemo/FilteringList"
 import MemoizedObject from "./Performance-Optimizations/UseMemo/MemoizedObject"
-import React, { Suspense } from "react"
+import React, { Suspense, useState } from "react"
 
 // import the Lazy Components here
 const LazyComponent = React.lazy(() => import("./Performance-Optimizations/React-Lazy-Suspense/LazyComponents"));
 
 function App() {
- 
+  // create her useState for storing the initial Value
+  const [page, setPage] = useState("home");
 
   return (
     <>
@@ -44,10 +47,26 @@ function App() {
       {/* <ListExample/> */}
 
       {/* React.Lazy And Suspense */}
-       <Header />
-      <Suspense fallback={<p>Loading...</p>}>
-        <LazyComponent />
+       {/* <Header />
+       {/*  Suspense is required around lazy component */}
+      {/* <Suspense fallback={<p>Loading...</p>}> */}
+       {/* LazyComponent tab load hoga jab ye render hoga */}
+        {/* <LazyComponent /> */}
+      {/* </Suspense> * */}
+
+       <div>
+      <h1>Conditional Lazy Loading</h1>
+
+      {/* Buttons to switch page */}
+      <button onClick={() => setPage("home")}>Home</button>
+      <button onClick={() => setPage("about")}>About</button>
+
+      {/* Suspense wrapper for lazy components */}
+      <Suspense fallback={<p>Loading page...</p>}>
+        {page === "home" && <Home />}
+        {page === "about" && <About />}
       </Suspense>
+    </div>
     </>
   )
 }
