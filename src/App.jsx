@@ -2,9 +2,9 @@ import Counter from "./components/Counter"
 import NewUsersList from "./components/NewUsersList"
 import UserLists from "./components/UserLists"
 import PostsList from "./Normalizations/PostsList"
-import ExpensiveCalculation from "./Performance-Optimizations/UseCallback/ExpensiveCalculations"
-import FilteredList from "./Performance-Optimizations/UseCallback/FilteringList"
-import MemoizedObject from "./Performance-Optimizations/UseCallback/MemoizedObject"
+import ExpensiveCalculation from "./Performance-Optimizations/UseMemo/ExpensiveCalculations"
+import FilteredList from "./Performance-Optimizations/UseMemo/FilteringList"
+import MemoizedObject from "./Performance-Optimizations/UseMemo/MemoizedObject"
 
 
 
