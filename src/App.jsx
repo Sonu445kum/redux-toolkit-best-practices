@@ -4,6 +4,7 @@ import UserLists from "./components/UserLists"
 import PostsList from "./Normalizations/PostsList"
 import ExpensiveCalculation from "./Performance-Optimizations/UseCallback/ExpensiveCalculations"
 import FilteredList from "./Performance-Optimizations/UseCallback/FilteringList"
+import MemoizedObject from "./Performance-Optimizations/UseCallback/MemoizedObject"
 
 
 
@@ -27,7 +28,8 @@ function App() {
 
       {/* Performance Optimizations */}
       {/* <ExpensiveCalculation/> */}
-      <FilteredList/>
+      {/* <FilteredList/> */}
+      <MemoizedObject/>
     </>
   )
 }
