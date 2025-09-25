@@ -4,6 +4,7 @@ import UserLists from "./components/UserLists"
 import PostsList from "./Normalizations/PostsList"
 import ExpensiveExample from "./Performance-Optimizations/UseCallback/CounterExample"
 import CounterExample from "./Performance-Optimizations/UseCallback/CounterExample"
+import ListExample from "./Performance-Optimizations/UseCallback/ListExamples"
 import ExpensiveCalculation from "./Performance-Optimizations/UseMemo/ExpensiveCalculations"
 import FilteredList from "./Performance-Optimizations/UseMemo/FilteringList"
 import MemoizedObject from "./Performance-Optimizations/UseMemo/MemoizedObject"
@@ -37,7 +38,8 @@ function App() {
 
       {/* 3 Examples Of useCallBack Hooks */}
       {/* <CounterExample/> */}
-      <ExpensiveExample/>
+      {/* <ExpensiveExample/> */}
+      <ListExample/>
     </>
   )
 }
