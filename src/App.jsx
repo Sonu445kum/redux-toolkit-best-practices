@@ -3,6 +3,7 @@ import NewUsersList from "./components/NewUsersList"
 import UserLists from "./components/UserLists"
 import PostsList from "./Normalizations/PostsList"
 import ExpensiveCalculation from "./Performance-Optimizations/UseCallback/ExpensiveCalculations"
+import FilteredList from "./Performance-Optimizations/UseCallback/FilteringList"
 
 
 
@@ -25,7 +26,8 @@ function App() {
       {/* <NewUsersList/> */}
 
       {/* Performance Optimizations */}
-      <ExpensiveCalculation/>
+      {/* <ExpensiveCalculation/> */}
+      <FilteredList/>
     </>
   )
 }
