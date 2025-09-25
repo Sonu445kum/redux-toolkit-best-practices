@@ -2,6 +2,7 @@ import Counter from "./components/Counter"
 import NewUsersList from "./components/NewUsersList"
 import UserLists from "./components/UserLists"
 import PostsList from "./Normalizations/PostsList"
+import CounterExample from "./Performance-Optimizations/UseCallback/CounterExample"
 import ExpensiveCalculation from "./Performance-Optimizations/UseMemo/ExpensiveCalculations"
 import FilteredList from "./Performance-Optimizations/UseMemo/FilteringList"
 import MemoizedObject from "./Performance-Optimizations/UseMemo/MemoizedObject"
@@ -27,9 +28,14 @@ function App() {
       {/* <NewUsersList/> */}
 
       {/* Performance Optimizations */}
+
+      {/* 3 Examples Of useMemo Hooks */}
       {/* <ExpensiveCalculation/> */}
       {/* <FilteredList/> */}
-      <MemoizedObject/>
+      {/* <MemoizedObject/> */}
+
+      {/* 3 Examples Of useCallBack Hooks */}
+      <CounterExample/>
     </>
   )
 }
