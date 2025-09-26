@@ -1,0 +1,5 @@
+React.lazy()->Jab componenets ki jaroot hoo tabhi load kro 
+Suspense->Suspense ek Wrapper componenets jo bataata hh ahi React Ko:
+"Agar koi componenets load hoo rha hh toh ishe fallBack ui dikhao"
+
+

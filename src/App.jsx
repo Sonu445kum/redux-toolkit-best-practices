@@ -10,6 +10,7 @@ import ParentComponenets from "./Performance-Optimizations/React.memo/ParentComp
 import ExpensiveExample from "./Performance-Optimizations/UseCallback/CounterExample"
 import CounterExample from "./Performance-Optimizations/UseCallback/CounterExample"
 import ListExample from "./Performance-Optimizations/UseCallback/ListExamples"
+import PracticeExample from "./Performance-Optimizations/UseMemo-UseCallBack/PracticeExample"
 import ExpensiveCalculation from "./Performance-Optimizations/UseMemo/ExpensiveCalculations"
 import FilteredList from "./Performance-Optimizations/UseMemo/FilteringList"
 import MemoizedObject from "./Performance-Optimizations/UseMemo/MemoizedObject"
@@ -52,9 +53,11 @@ function App() {
        {/* <Header />
        {/*  Suspense is required around lazy component */}
       {/* <Suspense fallback={<p>Loading...</p>}> */}
+      {/* Jab tak Componenets load Hoo rha hh ui Ko Loading Dikhega */}
        {/* LazyComponent tab load hoga jab ye render hoga */}
         {/* <LazyComponent /> */}
       {/* </Suspense> * */}
+      
 
        {/* <div>
       <h1>Conditional Lazy Loading</h1>
@@ -71,7 +74,10 @@ function App() {
     {/* </div> */}
 
     {/* React.memo */}
-    <ParentComponenets/>
+    {/* <ParentComponenets/> */}
+
+    {/* UseMemo And UseCallBack */}
+    <PracticeExample/>
     </>
   )
 }
